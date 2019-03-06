@@ -20,8 +20,7 @@ function addEventListeners() {
         map.markers.clearLayers();
         filtro = mapData.filter( key => {
             search = document.getElementById("search").value;
-            key.calle.indexOf(search) !== -1;
-            console.log(key.calle.indexOf(search));
+            return key.calle.toLowerCase().indexOf(search.toLowerCase()) !== -1;
         })
         .forEach( e => {
             
