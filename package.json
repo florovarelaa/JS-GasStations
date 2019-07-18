@@ -1,0 +1,17 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "surge": "^0.21.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d maps"
+  },
+  "author": "",
+  "homepage": "https://florovarelaa.github.io/gasstations",
+  "license": "ISC"
+}
